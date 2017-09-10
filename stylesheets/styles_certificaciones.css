@@ -4,11 +4,16 @@
 body{
  font-size: 1.2em Arial; 
  background: rgb(22, 21, 20);
+ /*background-color: white;*/
  width: 800px;
  margin: auto;
  padding: 2em;
 }
-
+.cabecera{
+  height: 100px;
+  color: white;
+  background-color: #D3D3D3;
+}
 h1{
   padding-bottom: 2em;
   border-bottom: none;
@@ -43,9 +48,20 @@ img[src]{
   width: 600px;
   padding: 2em;
   background-color: #0000FF;
+  margin: auto;
+
 }
 
 p span{
   color: black;
   font-weight: bold;
+}
+
+
+.footer{
+  height: 100px;
+  color: white;
+  background-color: #D3D3D3;
+  text-align: center;
+
 }
