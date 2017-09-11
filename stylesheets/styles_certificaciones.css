@@ -1,18 +1,17 @@
-
-
-
 body{
  font-size: 1.2em Arial; 
- background: rgb(22, 21, 20);
- /*background-color: white;*/
+ /*background: rgb(22, 21, 20);*/
+ background-color: #F0EFE2;
  width: 800px;
  margin: auto;
  padding: 2em;
 }
 .cabecera{
   height: 100px;
+  width: 878px;
   color: white;
   background-color: #D3D3D3;
+  background-color: #29425E;
 }
 h1{
   padding-bottom: 2em;
@@ -22,7 +21,7 @@ h1{
   padding: 5px 0 .3em;
   line-height: 32px;
   text-align: center;
-  color: white;
+  color: blue;
 }
 
 h2{
@@ -33,22 +32,21 @@ h2{
   padding: 5px 0 .3em;
   line-height: 32px;
   text-align: justify;
-  color: white;
+  color: blue;
 }
 
 p{
   text-align: justify;
-  color: white;
+  color: black;
   margin: 0;
-  background-color: #0000FF;
   padding: 1em;
 }
 
-img[src]{
+img{
   width: 600px;
   padding: 2em;
-  background-color: #0000FF;
   margin: auto;
+  
 
 }
 
@@ -58,10 +56,23 @@ p span{
 }
 
 
-.footer{
+/*#footer{
   height: 100px;
   color: white;
   background-color: #D3D3D3;
   text-align: center;
 
+}
+*/
+
+#footer{ 
+  width: 878px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: #29425E url(footer.png) repeat-x;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
