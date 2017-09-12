@@ -11,9 +11,10 @@ body{
 #header{ 
   background: #025587;
   height: 240px;
+  width: 878px; 
 }
 #logo
-{ width: 825px;
+{ width: 878px;
   height: 100px;
   background: #025587 url(logo.png) no-repeat;
   
@@ -123,11 +124,6 @@ p span{
   letter-spacing: 0.1em;
 }
 
-#footer #logo_text{
-  position: absolute; 
-  top: 20px;
-  left: 0;
-}
 
 
 
