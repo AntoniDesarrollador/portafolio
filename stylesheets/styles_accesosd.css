@@ -1,3 +1,5 @@
+
+
 body{
  font-size: 1.2em Arial; 
  /*background: rgb(22, 21, 20);*/
@@ -40,16 +42,15 @@ body{
 
 #logo_text h2 { 
   font-size: 100%;
-  /* padding: 4px 0 0 20;*/
+  /*padding: 4px 0 0 20;*/
   color: #DDD;
-  height: 50px;
-
 }
 
 #logo_text h1{
   /*padding: 4px 0 0 20;*/
   text-align: left;
 }
+
 
 
 
@@ -90,8 +91,9 @@ p{
   padding: 1em;
 }
 
-img{
-  width: 600px;
+img #imagen1{
+  width: 100px;
+  height: 200px;
   padding: 2em;
   margin: auto;
 
