@@ -7,9 +7,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="stylesheets/stilos.css">
-    
+
     <!-- Cargando fuentes -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i" rel="stylesheet">
+    
+    <!-- Cargando iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
     <!-- Carga de archivos css -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilos.css">
@@ -18,31 +22,35 @@
 
 <body>
     <section class="bienvenidos">
-       
+
         <header class="encabezado navbar fixed-top" rol="banner">
-           <div class="container">
-            <a href="index.html">
-                <img src="images/logo.svg" id="logo" alt="logo del sitio">
-            </a>
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="logo del sitio">
+                </a>
 
-            <button type="button" class="boton-buscar">Boton buscar</button>
-            <button type="button" class="boton-menu">Menu</button>
+                <button type="button" class="boton-buscar">
+                <i class="fas fa-search"></i>
+                </button>
+                <button type="button" class="boton-menu">
+                <i class="fas fa-bars"></i>
+                </button>
 
-            <form action="#" id="bloque-buscar">
-                <div class="contenedor-bloque-buscar">
-                    <input type="text" placeholder="Buscar ...">
-                    <input type="submit" value="Buscar">
-                </div>
-            </form>
-            <nav id="menu-principal">
-                <ul>
-                    <li class="active"><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+                <form action="#" id="bloque-buscar">
+                    <div class="contenedor-bloque-buscar">
+                        <input type="text" placeholder="Buscar ...">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+                <nav id="menu-principal">
+                    <ul>
+                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <div class="texto-encabezado">
