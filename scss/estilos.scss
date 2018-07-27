@@ -1,0 +1,22 @@
+//------------------
+// PATRON DE COLORES
+//------------------
+
+$texto:#111111;
+$principal:#12AFAF;
+$segundario:#009500;
+
+html{
+    font-size: 15px;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: $texto;
+}
+
+.encabezado{
+    background: $texto;
+    color: #fff;
+}
