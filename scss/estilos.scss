@@ -33,9 +33,9 @@ body {
     width: 150px;
     height: auto;
 }
-
-/*estilos para el boton buscar y menú*/
-
+//------------------
+// Estilos para el boton buscar y menú
+//------------------
 .boton-buscar,
 .boton-menu {
     border: 0;
@@ -53,9 +53,9 @@ body {
     margin-left: auto;
     margin-right: .8rem;
 }
-
-/*Estilos bloques buscar*/
-
+//------------------
+// Estilos bloques buscar
+//------------------
 #bloque-buscar {
     flex: 1 1 100%;
 }
@@ -97,14 +97,20 @@ body {
 #menu-principal ul li.active a {
     color: $principal;
 }
-.texto-encabezado {
+
+//------------------
+// Texto encabezado
+//------------------
+
+.texto-encabezado{
+    flex: 1 1 auto;
     display: flex;
-    flex: 0 1 100%;
     align-items: center;
+    
 }
-.texto-encabezado,
-.display-4 {
-    margin-top: 4rem;
+
+.texto-encabezado, .display-4 {
+    margin-top: 2rem;
 }
 .btn-primary {
     color: #fff;
@@ -123,7 +129,7 @@ body {
     display: inline-block;
     color: #fff;
     font-size: 2.5rem;
-    animation: flecha-animada 2s ease-in-out infinite;
+    animation: flecha-animada 1s ease-in-out infinite;
 }
 @keyframes flecha-animada {
     from {
@@ -145,8 +151,7 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
-.agencia img{
+.agencia img {
     width: 80%;
     margin: 0 auto;
     display: block;
