@@ -11,6 +11,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: $texto;
 }
+.bienvenidos{
+    background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+    color: #fff;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .encabezado {
     background: $texto;
     color: #fff;
@@ -101,3 +109,46 @@ body {
 }
 
 
+.texto-encabezado{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+.texto-encabezado, .display-4{
+    margin-top: 4rem;
+    
+}
+.btn-primary{
+    color: #fff;
+    background-color: $principal;
+    border-color: transparent;
+    margin-top: 1rem;
+    transition: all .5s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover{
+    background-color: black;
+    border-color: transparent;
+}
+
+.flecha-bajar a{
+    display: inline-block;
+    color: #fff;
+    font-size: 2.5rem;
+    animation: flecha-animada 2s ease-in-out infinite;
+}
+
+@keyframes flecha-animada{
+    from{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(6px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
