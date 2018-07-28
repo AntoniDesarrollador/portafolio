@@ -11,7 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: $texto;
 }
-.bienvenidos{
+.bienvenidos {
     background: url("../images/fondo-encabezado.jpg") no-repeat center top;
     color: #fff;
     background-size: cover;
@@ -24,19 +24,20 @@ body {
     color: #fff;
     padding: .5rem 0;
 }
-.encabezado .container{
+.encabezado .container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .encabezado .logo img {
     width: 150px;
     height: auto;
 }
 
 /*estilos para el boton buscar y menú*/
-.boton-buscar, .boton-menu{
+
+.boton-buscar,
+.boton-menu {
     border: 0;
     font-size: 2rem;
     margin: 0;
@@ -44,111 +45,109 @@ body {
     background: transparent;
     color: #fff;
 }
-
-
 .boton-buscar:focus,
 .boton-menu:focus {
     outline: 0;
 }
-
-.boton-buscar{
+.boton-buscar {
     margin-left: auto;
     margin-right: .8rem;
 }
 
 /*Estilos bloques buscar*/
-#bloque-buscar{
+
+#bloque-buscar {
     flex: 1 1 100%;
 }
-
-.contenedor-bloque-buscar{
+.contenedor-bloque-buscar {
     display: flex;
     height: 3rem;
     margin: 1rem 0;
-
 }
-
-
-.contenedor-bloque-buscar input[type="text"]{
+.contenedor-bloque-buscar input[type="text"] {
     padding: 1rem;
     border: 0;
-    border-radius: 5px 0 0 5px; 
+    border-radius: 5px 0 0 5px;
 }
-
-.contenedor-bloque-buscar input[type="submit"]{
+.contenedor-bloque-buscar input[type="submit"] {
     flex: 1 1 auto;
     border: 0;
     border-radius: 0 5px 5px 0;
     background: $principal;
     color: #fff;
 }
-
-#menu-principal{
+#menu-principal {
     flex: 1 1 100%;
 }
-
-#menu-principal ul{
+#menu-principal ul {
     padding: 0;
     list-style: none;
     margin: 1rem 0 0 0;
 }
-
-#menu-principal ul a{
+#menu-principal ul a {
     display: block;
     padding: .8rem 0;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    border-top: 1px solid  #696976;
+    border-top: 1px solid #696976;
     text-decoration: none;
 }
-
 #menu-principal ul a:hover,
-#menu-principal ul li.active a{
+#menu-principal ul li.active a {
     color: $principal;
 }
-
-
-.texto-encabezado{
-    flex: 1 1 auto;
+.texto-encabezado {
     display: flex;
+    flex: 0 1 100%;
     align-items: center;
 }
-
-.texto-encabezado, .display-4{
+.texto-encabezado,
+.display-4 {
     margin-top: 4rem;
-    
 }
-.btn-primary{
+.btn-primary {
     color: #fff;
     background-color: $principal;
     border-color: transparent;
     margin-top: 1rem;
     transition: all .5s ease;
 }
-
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active:hover{
+.btn-primary:active:hover {
     background-color: black;
     border-color: transparent;
 }
-
-.flecha-bajar a{
+.flecha-bajar a {
     display: inline-block;
     color: #fff;
     font-size: 2.5rem;
     animation: flecha-animada 2s ease-in-out infinite;
 }
-
-@keyframes flecha-animada{
-    from{
+@keyframes flecha-animada {
+    from {
         transform: translateY(0);
     }
-    50%{
+    50% {
         transform: translateY(6px);
     }
-    to{
+    to {
         transform: translateY(0);
     }
+}
+//------------------
+// Sección agencia
+//------------------
+.agencia {
+    background: $principal;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.agencia img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
