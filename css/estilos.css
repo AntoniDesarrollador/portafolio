@@ -241,4 +241,75 @@ body {
   min-height: 9rem;
 }
 
+.servicios {
+  background: blue;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.servicios {
+  background: url("../images/servicios.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.servicios article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+.servicios img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.servicios h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.servicios h3 a {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.servicios h3 a .fa-chevron-right {
+  font-size: 2rem;
+  margin-left: 1rem;
+  opacity: .5;
+  position: relative;
+  left: 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.servicios h3 a:hover .fa-chevron-right {
+  left: -.5rem;
+  opacity: 1;
+  color: #66CCFF;
+}
+
 /*# sourceMappingURL=estilos.css.map */
