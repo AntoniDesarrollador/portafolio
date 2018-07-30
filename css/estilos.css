@@ -9,8 +9,8 @@ body {
 
 .bienvenidos {
   background: url("../images/fondo-encabezado.jpg") no-repeat center top;
-  color: #fff;
   background-size: cover;
+  color: #fff;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,7 +219,8 @@ body {
   list-style: none;
 }
 
-.tu-mejor-eleccion ul li .fas, .fab {
+.tu-mejor-eleccion ul li .fas,
+.fab {
   list-style: none;
   font-size: 2.3rem;
   background: #009500;
@@ -310,6 +311,63 @@ body {
   left: -.5rem;
   opacity: 1;
   color: #66CCFF;
+}
+
+.ultimos-proyectos {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ultimos-proyectos h2 {
+  color: #111111;
+  margin-top: 1rem;
+}
+
+.ultimos-proyectos a {
+  text-decoration: none;
+}
+
+.ultimos-proyectos a h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #111111;
+}
+
+.ultimos-proyectos .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ultimos-proyectos .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 1px;
+}
+
+.ultimos-proyectos .fa-arrow-circle-left,
+.ultimos-proyectos .fa-arrow-circle-right {
+  font-size: 3rem;
+  margin: 0 .5rem;
+  color: #66CCFF;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-color: transparent;
+}
+
+.ultimos-proyectos .fa-arrow-circle-left:hover,
+.ultimos-proyectos .fa-arrow-circle-right:hover {
+  color: #009500;
+  border-color: transparent;
+}
+
+.ultimos-proyectos .fa-arrow-circle-left:focus,
+.ultimos-proyectos .fa-arrow-circle-right:focus {
+  border-color: transparent;
 }
 
 /*# sourceMappingURL=estilos.css.map */
