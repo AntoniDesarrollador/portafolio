@@ -356,18 +356,16 @@ body {
   color: #66CCFF;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  border-color: transparent;
 }
 
 .ultimos-proyectos .fa-arrow-circle-left:hover,
 .ultimos-proyectos .fa-arrow-circle-right:hover {
   color: #009500;
-  border-color: transparent;
 }
 
-.ultimos-proyectos .fa-arrow-circle-left:focus,
-.ultimos-proyectos .fa-arrow-circle-right:focus {
-  border-color: transparent;
+.ultimos-proyectos .owl-prev:focus,
+.ultimos-proyectos .owl-next:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=estilos.css.map */

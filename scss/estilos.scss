@@ -278,11 +278,18 @@ body {
     margin: 0 .5rem;
     color: $principal;
     transition: all .5s ease;
+    
 }
 
 .ultimos-proyectos .fa-arrow-circle-left:hover,
 .ultimos-proyectos .fa-arrow-circle-right:hover{
     color: $segundario;
 }
+
+.ultimos-proyectos .owl-prev:focus,
+.ultimos-proyectos .owl-next:focus{
+    outline:none;
+}
+
 
 
