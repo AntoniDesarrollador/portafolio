@@ -312,4 +312,11 @@ body {
   color: #66CCFF;
 }
 
+.piedepagina {
+  background: #111111;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */
