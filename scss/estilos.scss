@@ -13,8 +13,8 @@ body {
 }
 .bienvenidos {
     background: url("../images/fondo-encabezado.jpg") no-repeat center top;
-    color: #fff;
     background-size: cover;
+    color: #fff;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -169,8 +169,8 @@ body {
 .tu-mejor-eleccion ul li {
     list-style: none;
 }
-
-.tu-mejor-eleccion ul li .fas,.fab{
+.tu-mejor-eleccion ul li .fas,
+.fab {
     list-style: none;
     font-size: 2.3rem;
     background: $segundario;
@@ -179,65 +179,57 @@ body {
     height: 5rem;
     line-height: 5rem;
     color: #fff;
-    
 }
-.tu-mejor-eleccion ul li .contenedor-eleccion h4{
+.tu-mejor-eleccion ul li .contenedor-eleccion h4 {
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: .8rem;
 }
 
 /*mejora la uniformidad de los bloques iconos*/
+
 .tu-mejor-eleccion ul li {
     min-height: 9rem;
 }
-
-
 //-----------------------------
 // Sección nuestros servicios
 //-----------------------------
-.servicios{
+.servicios {
     background: blue;
     color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
-.servicios{
+.servicios {
     background: url("../images/servicios.jpg") no-repeat center center;
     background-size: cover;
-    color:#fff;
+    color: #fff;
 }
-
-.servicios article{
+.servicios article {
     display: flex;
     align-items: center;
     margin: 1rem 0;
 }
-
-.servicios img{
+.servicios img {
     flex: 0 0 60px;
     height: 60px;
     width: 60px;
     overflow: hidden;
     margin-right: 1rem;
 }
-
-.servicios h3{
+.servicios h3 {
     margin: 0;
     font-size: 1.1rem;
     flex: 1 1 auto;
 }
-
-.servicios h3 a{
-    color:#fff;
+.servicios h3 a {
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
 }
-
-.servicios h3 a .fa-chevron-right{
+.servicios h3 a .fa-chevron-right {
     font-size: 2rem;
     margin-left: 1rem;
     opacity: .5;
@@ -245,14 +237,59 @@ body {
     left: 0;
     transition: all .5s ease;
 }
-
-.servicios h3 a:hover .fa-chevron-right{
+.servicios h3 a:hover .fa-chevron-right {
     left: -.5rem;
     opacity: 1;
     color: $principal;
+}
+//-----------------------------
+// Últimos proyectos
+//-----------------------------
+.ultimos-proyectos {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.ultimos-proyectos h2 {
+    color: $texto;
+    margin-top: 1rem;
+}
+.ultimos-proyectos a {
+    text-decoration: none;
+}
+.ultimos-proyectos a h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: $texto;
+}
+.ultimos-proyectos .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.ultimos-proyectos .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1px;
+}
+
+.ultimos-proyectos .fa-arrow-circle-left,
+.ultimos-proyectos .fa-arrow-circle-right{
+    font-size: 3rem;
+    margin: 0 .5rem;
+    color: $principal;
+    transition: all .5s ease;
     
 }
 
+.ultimos-proyectos .fa-arrow-circle-left:hover,
+.ultimos-proyectos .fa-arrow-circle-right:hover{
+    color: $segundario;
+}
+
+.ultimos-proyectos .owl-prev:focus,
+.ultimos-proyectos .owl-next:focus{
+    outline:none;
+}
 
 
 
