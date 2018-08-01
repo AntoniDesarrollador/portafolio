@@ -403,8 +403,57 @@ body {
         margin: 0 0 .5rem 0;
         font-size: 1.5rem;
         flex: 0 1 auto;
+        width: 100%;
+    }
+    .servicios h3 a {
+        display: block;
+        width: 100%;
+    }
+    .servicios p {
+        width: 100%;
     }
     .btn-secondary {
         margin-top: auto;
+    }
+}
+//-----------------------------
+// Se empiezan las medias queries en laptop
+//-----------------------------
+@media (min-width: 992px) {
+    html {
+        font-size: 16px;
+    }
+    .tu-mejor-eleccion ul li {
+        display: flex;
+        min-height: 7rem;
+    }
+    .tu-mejor-eleccion ul li .fas,
+    .tu-mejor-eleccion ul li .fab {
+        text-align: center;
+        flex: 0 1 auto;
+        margin-right: 1rem;
+        transition: all 1s ease;
+    }
+    .tu-mejor-eleccion ul li:hover .fas,
+    .tu-mejor-eleccion ul li:hover .fab {
+        transform: rotateY(360deg);
+        transform-style: preserve-3d;
+        background: $principal;
+    }
+    .contenedor-eleccion {
+        flex: 1 0 0px;
+    }
+    .tu-mejor-eleccion ul li .contenedor-eleccion h4 {
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    .tu-mejor-eleccion ul:first-child .fas,
+    .tu-mejor-eleccion ul:first-child .fab {
+        order: 1;
+        max-resolution: 0;
+        margin-left: 1rem;
+    }
+    .tu-mejor-eleccion ul li p {
+        font-size: .85rem;
     }
 }
