@@ -425,6 +425,60 @@ body {
   color: #fff;
 }
 
+.paginas-internas .bienvenidos {
+  height: 50vh;
+}
+
+.paginas-internas .ruta {
+  background: #66CCFF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.paginas-internas .ruta a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.paginas-internas .ruta a:hover {
+  text-decoration: none;
+}
+
+.menu {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.paginas-internas .card-header {
+  padding: 0rem 0rem;
+}
+
+.paginas-internas .card h4 {
+  font-size: 1.2rem;
+}
+
+.paginas-internas .card h4 a {
+  background: #66CCFF;
+  color: #fff;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.paginas-internas .card h4 a:hover {
+  background: #009500;
+}
+
+.paginas-internas .foto img {
+  height: 323px;
+  width: 288px;
+  margin: 2rem 1rem 0 0;
+}
+
 @media (min-width: 768px) {
   #menu-principal {
     -webkit-box-flex: 1;
