@@ -109,13 +109,15 @@ body {
 }
 .texto-encabezado,
 .display-4 {
-    margin-top: 2rem;
+    margin-top: 4rem;
+}
+.texto-encabezado .btn-primary {
+    margin-top: 1rem;
 }
 .btn-primary {
     color: #fff;
     background-color: $principal;
     border-color: transparent;
-    margin-top: 1rem;
     transition: all .5s ease;
 }
 .btn-primary:hover,
@@ -406,6 +408,13 @@ body {
     transform-style: preserve-3d;
 }
 //-----------------------------
+// Estilos página Contacto
+//-----------------------------
+.paginas-internas .contacto {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+//-----------------------------
 // Se empiezan las medias queries
 //-----------------------------
 @media (min-width: 768px) {
@@ -498,8 +507,6 @@ body {
     .paginas-internas .btn-primary {
         margin-top: auto;
     }
-
-
 }
 //-----------------------------
 // Se empiezan las medias queries en laptop

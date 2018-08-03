@@ -139,14 +139,17 @@ body {
 
 .texto-encabezado,
 .display-4 {
-  margin-top: 2rem;
+  margin-top: 4rem;
+}
+
+.texto-encabezado .btn-primary {
+  margin-top: 1rem;
 }
 
 .btn-primary {
   color: #fff;
   background-color: #66CCFF;
   border-color: transparent;
-  margin-top: 1rem;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
@@ -508,6 +511,11 @@ body {
           transform: rotateY(360deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+}
+
+.paginas-internas .contacto {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
