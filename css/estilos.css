@@ -27,6 +27,14 @@ body {
   background: #111111;
   color: #fff;
   padding: .5rem 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/*estilos para que cambie apariencia del menul al hacer scroll*/
+.encabezado.fondo-menu {
+  background: #3d7590;
+  padding: 1rem 0;
 }
 
 .encabezado .container {
