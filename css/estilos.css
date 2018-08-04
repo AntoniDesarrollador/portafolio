@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 15px;
 }
@@ -8,7 +9,7 @@ body {
 }
 
 .bienvenidos {
-  background: url("../images/dubai.jpg") no-repeat center top;
+  background: url("../images/fondo-encabezado.jpg") no-repeat center top;
   background-size: cover;
   color: #fff;
   height: 100vh;
@@ -138,14 +139,17 @@ body {
 
 .texto-encabezado,
 .display-4 {
-  margin-top: 2rem;
+  margin-top: 4rem;
+}
+
+.texto-encabezado .btn-primary {
+  margin-top: 1rem;
 }
 
 .btn-primary {
   color: #fff;
   background-color: #66CCFF;
   border-color: transparent;
-  margin-top: 1rem;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
@@ -486,7 +490,47 @@ body {
   margin: 2rem 1rem 0 0;
 }
 
+.paginas-internas .lista-servicios {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #009500;
+}
+
+.paginas-internas .lista-servicios .item-servicios {
+  background: #fff;
+  text-align: center;
+  border: 5px solid #057705;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.paginas-internas .lista-servicios .item-servicios .fab {
+  font-size: 6rem;
+  color: #66CCFF;
+  margin-bottom: 1rem;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.paginas-internas .lista-servicios .item-servicios:hover .fab {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.paginas-internas .contacto {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 @media (min-width: 768px) {
+  .bienvenidos {
+    background: url("../images/fondo-encabezado-tableta.jpg") no-repeat center top;
+    background-size: cover;
+  }
+
   #menu-principal {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
@@ -598,13 +642,39 @@ body {
     width: 100%;
   }
 
-  .btn-secondary {
+  .servicios .btn-secondary {
+    margin-top: auto;
+  }
+
+  /*página servicios*/
+  .paginas-internas .lista-servicios .col-md-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .paginas-internas .lista-servicios .item-servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .paginas-internas .btn-primary {
     margin-top: auto;
   }
 }
 @media (min-width: 992px) {
   html {
     font-size: 16px;
+  }
+
+  .bienvenidos {
+    background: url("../images/fondo-encabezado-grande-3.jpg") no-repeat center top;
+    background-size: cover;
   }
 
   .tu-mejor-eleccion ul li {

@@ -12,7 +12,7 @@ body {
     color: $texto;
 }
 .bienvenidos {
-    background: url("../images/dubai.jpg") no-repeat center top;
+    background: url("../images/fondo-encabezado.jpg") no-repeat center top;
     background-size: cover;
     color: #fff;
     height: 100vh;
@@ -109,13 +109,15 @@ body {
 }
 .texto-encabezado,
 .display-4 {
-    margin-top: 2rem;
+    margin-top: 4rem;
+}
+.texto-encabezado .btn-primary {
+    margin-top: 1rem;
 }
 .btn-primary {
     color: #fff;
     background-color: $principal;
     border-color: transparent;
-    margin-top: 1rem;
     transition: all .5s ease;
 }
 .btn-primary:hover,
@@ -373,42 +375,70 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-
-
-.paginas-internas .card-header{
+.paginas-internas .card-header {
     padding: 0rem 0rem;
 }
-.paginas-internas .card h4{
+.paginas-internas .card h4 {
     font-size: 1.2rem;
-    
 }
-
-.paginas-internas .card h4 a{
+.paginas-internas .card h4 a {
     background: $principal;
-    color:#fff;
+    color: #fff;
     display: block;
     padding: 1rem;
     border-radius: 5px;
     text-decoration: none;
     transition: all .5s ease;
 }
-
-.paginas-internas .card h4 a:hover{
+.paginas-internas .card h4 a:hover {
     background: $segundario;
 }
-
-
-
-
 .paginas-internas .foto img {
     height: 323px;
     width: 288px;
     margin: 2rem 1rem 0 0;
 }
 //-----------------------------
+// Estilos página Servicios
+//-----------------------------
+.paginas-internas .lista-servicios {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: $segundario;
+}
+.paginas-internas .lista-servicios .item-servicios {
+    background: #fff;
+    text-align: center;
+    border: 5px solid #057705;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.paginas-internas .lista-servicios .item-servicios .fab {
+    font-size: 6rem;
+    color: $principal;
+    margin-bottom: 1rem;
+    transition: all 1s ease;
+}
+.paginas-internas .lista-servicios .item-servicios:hover .fab {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+//-----------------------------
+// Estilos página Contacto
+//-----------------------------
+.paginas-internas .contacto {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+//-----------------------------
 // Se empiezan las medias queries
 //-----------------------------
 @media (min-width: 768px) {
+    .bienvenidos {
+        background: url("../images/fondo-encabezado-tableta.jpg") no-repeat center top;
+        background-size: cover;
+    }
     #menu-principal {
         flex: 1 1 100%;
         height: auto !important;
@@ -484,7 +514,18 @@ body {
     .servicios p {
         width: 100%;
     }
-    .btn-secondary {
+    .servicios .btn-secondary {
+        margin-top: auto;
+    }
+    /*página servicios*/
+    .paginas-internas .lista-servicios .col-md-4 {
+        display: flex;
+    }
+    .paginas-internas .lista-servicios .item-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+    .paginas-internas .btn-primary {
         margin-top: auto;
     }
 }
@@ -494,6 +535,10 @@ body {
 @media (min-width: 992px) {
     html {
         font-size: 16px;
+    }
+    .bienvenidos {
+        background: url("../images/fondo-encabezado-grande-3.jpg") no-repeat center top;
+        background-size: cover;
     }
     .tu-mejor-eleccion ul li {
         display: flex;
