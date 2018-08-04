@@ -9,7 +9,7 @@ body {
 }
 
 .bienvenidos {
-  background: url("../images/dubai.jpg") no-repeat center top;
+  background: url("../images/fondo-encabezado.jpg") no-repeat center top;
   background-size: cover;
   color: #fff;
   height: 100vh;
@@ -519,6 +519,11 @@ body {
 }
 
 @media (min-width: 768px) {
+  .bienvenidos {
+    background: url("../images/fondo-encabezado-tableta.jpg") no-repeat center top;
+    background-size: cover;
+  }
+
   #menu-principal {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
@@ -658,6 +663,11 @@ body {
 @media (min-width: 992px) {
   html {
     font-size: 16px;
+  }
+
+  .bienvenidos {
+    background: url("../images/fondo-encabezado-grande-3.jpg") no-repeat center top;
+    background-size: cover;
   }
 
   .tu-mejor-eleccion ul li {
