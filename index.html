@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="stylesheets/stilos.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <!-- Cargando fuentes -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i" rel="stylesheet">
@@ -30,7 +30,7 @@
 
 
 <body>
-    <section class="bienvenidos">
+    <section class="bienvenidos" id=inicio>
 
         <header class="encabezado navbar fixed-top" rol="banner">
             <div class="container">
@@ -69,12 +69,12 @@
             <div class="container">
                 <h1 class="display-4 wow bounceIn">Desarrollo de Apss para empresas</h1>
                 <P class="wow bounceIn" data-wow-delay=".3s">Creamos aplicaciones según las necesidades y requerimientos de nuestros clientes</P>
-                <a href="contacto1.html" class="btn btn-primary btn-lg">Ponte en contacto</a>
+                <a href="contacto.html" class="btn btn-primary btn-lg">Ponte en contacto</a>
             </div>
         </div>
 
         <div class="flecha-bajar text-center">
-            <a href="#agencia"><i class="fas fa-angle-down"></i></a>
+            <a data-scroll href="#agencia"><i class="fas fa-angle-down"></i></a>
         </div>
     </section>
 
@@ -270,7 +270,7 @@
         </div>
     </footer>
 
-    <a class="ir-arriba" href="#"><i class="fas fa-arrow-circle-up"></i></a>
+    <a data-scroll class="ir-arriba" href="#inicio"><i class="fas fa-arrow-circle-up"></i></a>
 
     <!-- Carga de archivos JS  -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -278,7 +278,9 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/script-carousel.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
     <script src="js/sitio.js"></script>
+    
    
 
 </body>

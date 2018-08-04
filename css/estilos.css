@@ -11,6 +11,7 @@ body {
 .bienvenidos {
   background: url("../images/fondo-encabezado.jpg") no-repeat center top;
   background-size: cover;
+  background-attachment: fixed !important;
   color: #fff;
   height: 100vh;
   display: -webkit-box;
@@ -26,6 +27,14 @@ body {
   background: #111111;
   color: #fff;
   padding: .5rem 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/*estilos para que cambie apariencia del menul al hacer scroll*/
+.encabezado.fondo-menu {
+  background: #3d7590;
+  padding: 1rem 0;
 }
 
 .encabezado .container {
@@ -93,7 +102,7 @@ body {
           flex: 0 1 auto;
   border: 0;
   border-radius: 0 5px 5px 0;
-  background: #66CCFF;
+  background: #52a4cc;
   color: #fff;
   padding: 0 .5rem;
 }
@@ -122,7 +131,7 @@ body {
 
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
-  color: #66CCFF;
+  color: #52a4cc;
 }
 
 .texto-encabezado {
@@ -148,7 +157,7 @@ body {
 
 .btn-primary {
   color: #fff;
-  background-color: #66CCFF;
+  background-color: #52a4cc;
   border-color: transparent;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
@@ -199,7 +208,7 @@ body {
   }
 }
 .agencia {
-  background: #66CCFF;
+  background: #52a4cc;
   color: #fff;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -219,7 +228,7 @@ body {
 }
 
 .tu-mejor-eleccion h2 span {
-  color: #66CCFF;
+  color: #52a4cc;
 }
 
 .tu-mejor-eleccion ul,
@@ -260,6 +269,7 @@ body {
 .servicios {
   background: url("../images/servicios.jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed !important;
   color: #fff;
 }
 
@@ -318,7 +328,7 @@ body {
 .servicios h3 a:hover .fa-chevron-right {
   left: -.5rem;
   opacity: 1;
-  color: #66CCFF;
+  color: #52a4cc;
 }
 
 .ultimos-proyectos {
@@ -361,7 +371,7 @@ body {
 .ultimos-proyectos .fa-arrow-circle-right {
   font-size: 3rem;
   margin: 0 .5rem;
-  color: #66CCFF;
+  color: #52a4cc;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
@@ -422,9 +432,10 @@ body {
   bottom: 1rem;
   right: 1rem;
   font-size: 3rem;
-  color: #66CCFF;
+  color: #52a4cc;
   z-index: 99999;
   line-height: 0;
+  display: none;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
@@ -441,7 +452,7 @@ body {
 }
 
 .paginas-internas .ruta {
-  background: #66CCFF;
+  background: #52a4cc;
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: #fff;
@@ -470,7 +481,7 @@ body {
 }
 
 .paginas-internas .card h4 a {
-  background: #66CCFF;
+  background: #52a4cc;
   color: #fff;
   display: block;
   padding: 1rem;
@@ -507,7 +518,7 @@ body {
 
 .paginas-internas .lista-servicios .item-servicios .fab {
   font-size: 6rem;
-  color: #66CCFF;
+  color: #52a4cc;
   margin-bottom: 1rem;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -565,7 +576,7 @@ body {
 
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
-    color: #66CCFF;
+    color: #52a4cc;
     border-bottom: 4px solid;
   }
 
@@ -701,7 +712,7 @@ body {
             transform: rotateY(360deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-    background: #66CCFF;
+    background: #52a4cc;
   }
 
   .contenedor-eleccion {
