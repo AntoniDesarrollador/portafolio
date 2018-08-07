@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+
+
+<!-- Actual scrollspy markup: -->
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <h3 class="navbar-brand">Project Name</h3>
+  <ul class="nav nav-pills">
+    <li class="nav-item"><a class="nav-link" href="#verse1">Verse 1</a></li>
+    <li class="nav-item"><a class="nav-link" href="#verse2">Verse 2</a></li>
+  </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
+  <h4 id="verse1">Verse 1</h4>
+  <p>May <br> the <br> gods <br> forgive <br> me.</p>
+  <h4 id="verse2">Verse 2</h4>
+  <p>For <br> this <br> rampant <br> abuse <br> of <br> br-tags.</p>
+</div>
+    
+    
+    
+    
+    <style type="text/css" scoped>
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+</style>
+</body>
+</html>
+
+

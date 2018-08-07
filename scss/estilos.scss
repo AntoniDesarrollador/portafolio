@@ -27,7 +27,7 @@ body {
     transition: all 1s ease;
 }
 
-/*estilos para que cambie apariencia del menul al hacer scroll*/
+/*estilos para que cambie apariencia del menú al hacer scroll*/
 
 .encabezado.fondo-menu {
     background: #3d7590;
@@ -45,7 +45,7 @@ body {
 //------------------
 // Estilos para el boton buscar y menú
 //------------------
-.boton-buscar,
+
 .boton-menu {
     border: 0;
     font-size: 2rem;
@@ -54,39 +54,13 @@ body {
     background: transparent;
     color: #fff;
 }
-.boton-buscar:focus,
+
 .boton-menu:focus {
     outline: 0;
 }
-.boton-buscar {
-    margin-left: auto;
-    margin-right: .8rem;
-}
-//------------------
-// Estilos bloques buscar
-//------------------
-#bloque-buscar {
-    flex: 1 1 100%;
-}
-.contenedor-bloque-buscar {
-    display: flex;
-    height: 3rem;
-    margin: 1rem 0;
-}
-.contenedor-bloque-buscar input[type="text"] {
-    flex: 1 1 auto;
-    border: 0;
-    border-radius: 5px 0 0 5px;
-    padding: 1rem;
-}
-.contenedor-bloque-buscar input[type="submit"] {
-    flex: 0 1 auto;
-    border: 0;
-    border-radius: 0 5px 5px 0;
-    background: $principal;
-    color: #fff;
-    padding: 0 .5rem;
-}
+
+
+
 #menu-principal {
     flex: 1 1 100%;
 }
@@ -103,6 +77,7 @@ body {
     text-transform: uppercase;
     border-top: 1px solid #696976;
     text-decoration: none;
+    transition: all .5s ease;
 }
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
@@ -152,59 +127,90 @@ body {
         transform: translateY(0);
     }
 }
-//------------------
-// Sección agencia
-//------------------
-.agencia {
+
+
+
+
+//-----------------------------
+// Estilos Sección Nosotros
+//-----------------------------
+
+
+.sobre-mi {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.card-header{
+    padding: 0rem 0rem;
+}
+.card h4{
+    font-size: 1.2rem;
+}
+.card h4 a{
     background: $principal;
     color: #fff;
-    ;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.agencia img {
-    width: 80%;
-    margin: 0 auto;
     display: block;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s ease;
 }
-//------------------
-// Sección tu mejor elección
-//------------------
-.tu-mejor-eleccion {
-    background: #fff;
-    color: black;
+.card h4 a:hover{
+    background: $texto;
+}
+.foto img{
+    height: 323px;
+    width: 288px;
+    margin: 2rem 1rem 0 0;
+}
+
+
+//-----------------------------
+//  Estilos sección certificados
+//-----------------------------
+.certificados {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
 }
-.tu-mejor-eleccion h2 span {
-    color: $principal;
+.certificados h2 {
+    color: $texto;
+    margin-top: 1rem;
 }
-.tu-mejor-eleccion ul,
-.tu-mejor-eleccion ul li {
-    list-style: none;
+.certificados a {
+    text-decoration: none;
 }
-.tu-mejor-eleccion ul li .fas,
-.tu-mejor-eleccion ul li .fab {
-    list-style: none;
-    font-size: 2.3rem;
-    background: $segundario;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    line-height: 5rem;
-    color: #fff;
-}
-.tu-mejor-eleccion ul li .contenedor-eleccion h4 {
-    font-size: 1.2rem;
+.certificados a h4 {
+    font-size: 1rem;
     font-weight: bold;
-    margin-top: .8rem;
+    text-align: center;
+    color: $texto;
+}
+.certificados .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.certificados .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1px;
+}
+.certificados .fa-arrow-circle-left,
+.certificados .fa-arrow-circle-right {
+    font-size: 3rem;
+    margin: 0 .5rem;
+    color: $principal;
+    transition: all .5s ease;
+}
+.certificados .fa-arrow-circle-left:hover,
+.certificados .fa-arrow-circle-right:hover {
+    color: $texto;
+}
+.certificados .owl-prev:focus,
+.certificados .owl-next:focus {
+    outline: none;
 }
 
-/*mejora la uniformidad de los bloques iconos*/
-
-.tu-mejor-eleccion ul li {
-    min-height: 9rem;
-}
 //-----------------------------
 // Sección nuestros servicios
 //-----------------------------
@@ -257,50 +263,8 @@ body {
     opacity: 1;
     color: $principal;
 }
-//-----------------------------
-// Últimos proyectos
-//-----------------------------
-.ultimos-proyectos {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.ultimos-proyectos h2 {
-    color: $texto;
-    margin-top: 1rem;
-}
-.ultimos-proyectos a {
-    text-decoration: none;
-}
-.ultimos-proyectos a h4 {
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-    color: $texto;
-}
-.ultimos-proyectos .container {
-    padding-left: 0;
-    padding-right: 0;
-}
-.ultimos-proyectos .owl-nav {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 1px;
-}
-.ultimos-proyectos .fa-arrow-circle-left,
-.ultimos-proyectos .fa-arrow-circle-right {
-    font-size: 3rem;
-    margin: 0 .5rem;
-    color: $principal;
-    transition: all .5s ease;
-}
-.ultimos-proyectos .fa-arrow-circle-left:hover,
-.ultimos-proyectos .fa-arrow-circle-right:hover {
-    color: $segundario;
-}
-.ultimos-proyectos .owl-prev:focus,
-.ultimos-proyectos .owl-next:focus {
-    outline: none;
-}
+
+
 //-----------------------------
 // Sección pié de página
 //-----------------------------
@@ -362,53 +326,6 @@ body {
     outline: 0;
     text-decoration: none;
     color: #fff;
-    
-    }
-//-----------------------------
-// Estilos página Nosotros
-//-----------------------------
-.paginas-internas .bienvenidos {
-    height: 50vh;
-}
-.paginas-internas .ruta {
-    background: $principal;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: #fff;
-}
-.paginas-internas .ruta a {
-    color: #fff;
-    text-decoration: underline;
-}
-.paginas-internas .ruta a:hover {
-    text-decoration: none;
-}
-.menu {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.paginas-internas .card-header {
-    padding: 0rem 0rem;
-}
-.paginas-internas .card h4 {
-    font-size: 1.2rem;
-}
-.paginas-internas .card h4 a {
-    background: $principal;
-    color: #fff;
-    display: block;
-    padding: 1rem;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: all .5s ease;
-}
-.paginas-internas .card h4 a:hover {
-    background: $segundario;
-}
-.paginas-internas .foto img {
-    height: 323px;
-    width: 288px;
-    margin: 2rem 1rem 0 0;
 }
 //-----------------------------
 // Estilos página Servicios
@@ -436,6 +353,10 @@ body {
     transform: rotateY(360deg);
     transform-style: preserve-3d;
 }
+
+
+
+
 //-----------------------------
 // Estilos página Contacto
 //-----------------------------
@@ -443,6 +364,10 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+
+
 //-----------------------------
 // Se empiezan las medias queries
 //-----------------------------
@@ -529,7 +454,9 @@ body {
     .servicios .btn-secondary {
         margin-top: auto;
     }
+    
     /*página servicios*/
+    
     .paginas-internas .lista-servicios .col-md-4 {
         display: flex;
     }
