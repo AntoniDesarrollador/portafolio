@@ -4,13 +4,19 @@ new WOW().init();
 
 /*iniciamos smooScroll*/
 
-var scroll = new SmoothScroll('a[href*="#agencia"]', {
+var scroll = new SmoothScroll('a[href*="#nosotros"]', {
     speed: 1000,
-    offset: 60
+    offset: 80
 });
 
 var scroll = new SmoothScroll('a[href*="#inicio"]', {
     speed: 1000
+});
+
+
+var scroll = new SmoothScroll('a[href*="#servicios"]', {
+    speed: 1000,
+    offset: 60
 });
 
 

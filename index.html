@@ -35,27 +35,17 @@
                     <img src="images/logo.svg" alt="logo del sitio">
                 </a>
 
-                <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
-                    <i class="fal fa-search"></i>
-                </button>
                 <button type="button" class="boton-menu d-md-none" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
                     <i class="fal fa-bars"></i>
                 </button>
 
 
-                <form action="#" id="bloque-buscar" class="collapse">
-                    <div class="contenedor-bloque-buscar">
-                        <input type="text" placeholder="Buscar ...">
-                        <input type="submit" value="Buscar">
-                    </div>
-                </form>
-
                 <nav id="menu-principal" class="collapse">
                     <ul>
-                        <li class="active"><a href="index.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Sobre mi</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -66,111 +56,100 @@
             <div class="container">
                 <h1 class="display-4 wow bounceIn">Desarrollo de Apss para empresas</h1>
                 <P class="wow bounceIn" data-wow-delay=".3s">Creamos aplicaciones según las necesidades y requerimientos de nuestros clientes</P>
-                <a href="contacto.html" class="btn btn-primary btn-lg">Ponte en contacto</a>
+                <a href="#contacto" class="btn btn-primary btn-lg">Ponte en contacto</a>
             </div>
         </div>
 
         <div class="flecha-bajar text-center">
-            <a data-scroll href="#agencia"><i class="fal fa-angle-down"></i></a>
+            <a data-scroll href="#nosotros"><i class="fal fa-angle-down"></i></a>
         </div>
     </section>
 
 
 
-
-
-    <section class="agencia " id="agencia">
-
+    <section class="sobre-mi" id="nosotros">
         <div class="container">
-
             <div class="row">
+                <article class="col-md-8">
+                    <h2>Trabajamos para tu éxito</h2>
+                    <p>Hola! mi nombre es Antoni Jems Garcia Herrera, soy de nacionalidad Venezolana, tengo 26 años, Me encanta la tecnología tanto como el fútbol internacional. Mi gusto por la programación inició cuando aprendí Lenguaje C durante mis estudios universitarios. Me apasiona contribuir para el desarrollo tecnológico de las sociendades, creando tecnologías que le ayuden a ser más productivos en sus empresas y de alta calidad. Estoy graduado de Ingeniero de Sistemas, título registrado en el colegio de ingenieros de Venezuela bajo el número 276999 y me he convertido especialista en el desarrollo web.</p>
 
-                <div class="col-md-8 col-xl-9 wow bounceIn" data-wow-delay=".3s">
-                    <h2 class="text-center text-md-left font-weight-bold">Agencia de programación de aplicaciones.</h2>
-                    <p class="text-justify">Antoni jems te asesora en el desarrollo y el diseño para que tu aplicación móvil salga a la luz. Ponemos a disposición las mejores plataformas del mundo de las comunicaciones.</p>
-                    <p class="text-justify">Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con supervisión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación, diseño corporativo, tecnologías ... ) a productos adaptados a metodologías ágiles de creación de apps diseñadas por nosotros y avaadas por nuestros años de experiencia.</p>
-                </div>
 
-                <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
-                    <img src="images/agencia.svg">
-                </div>
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <h4 class="mb-0"><a data-toggle="collapse" href="#tab-mision">MISIÓN</a></h4>
+                            </div>
+
+                            <div id="tab-mision" class="collapse">
+                                <div class="card-body">
+                                    <p>Hacer software de calidad a medida de los requerimientos entregados por el clente.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#tab-vision">VISIÓN</a></h4>
+                            </div>
+                            <div id="tab-vision" class="collapse">
+                                <div class="card-body">
+                                    <p>Ser el principal punto de dreferencia en el diseño, programación y despliege a producción de proyectos tecnológicos tanto para clientes nacionales como internacionales.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#tab-valores">VALORES</a></h4>
+                            </div>
+
+                            <div id="tab-valores" class="collapse">
+                                <div class="card-body">
+                                    <p>Respeto, Disciplina, Calidad y Puntualidad en la entrega de los proyectos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <aside class="foto  col-md-4">
+                    <img src="images/Antoni.jpg" alt="Nosotros">
+                </aside>
+
             </div>
         </div>
     </section>
 
 
 
-
-
-
-    <section class="tu-mejor-eleccion">
+    <section class="certificados">
         <div class="container">
-            <h2 class="text-center font-weight-bold">¿Por qué somos <span>tu mejor elección?</span></h2>
-            <p class="text-center">Desarrollo web y Apps para empresas profesionales</p>
 
-            <div class="row">
-                <ul div class="col-6 col-lg-4 text-center text-lg-left">
-                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
-                        <i class="fas fa-cloud"></i>
-
-                        <div class="contenedor-eleccion">
-                            <h4>Aplicaciones para la nube</h4>
-                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </li>
-
-                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
-                        <i class="fas fa-industry"></i>
-
-                        <div class="contenedor-eleccion">
-                            <h4>Fábrica de software</h4>
-                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </li>
-
-                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
-                        <i class="fab fa-js"></i>
-
-                        <div class="contenedor-eleccion">
-                            <h4>Gestión en la nube</h4>
-                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </li>
-                </ul>
-
-                <div class="d-none d-lg-block col-lg-4">
-                    <img src="images/tu-m-eleccion.svg" alt="desarrolo web">
+            <h2 class="text-center font-weight-bold">Certificados obtenidos</h2>
+            <div class="owl-carousel">
+                <div>
+                    <h4 class="text-center">Certified Linux Operator</h4>
+                    <img src="images/certificados/CLO.jpg" alt="CLO">
                 </div>
 
-                <ul div class="col-6 col-lg-4 text-center text-lg-right">
-                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
-                        <i class="fas fa-gamepad"></i>
+                <div>
+                    <h4 class="text-center">Certified Linux Administrator</h4>
+                    <img src="images/certificados/CLA.jpg" alt="CLA">
+                </div>
 
-                        <div class="contenedor-eleccion">
-                            <h4>VideoJuegos</h4>
-                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </li>
+                <div>
+                    <h4 class="text-center">Curso de Programación Básica</h4>
+                    <img src="images/certificados/diploma-programacion-basica.jpg" alt="diploma de porgramación básica">
+                </div>
 
-                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
-                        <i class="fas fa-address-book"></i>
+                <div>
+                    <h4 class="text-center">Structure Query Language (SQL)</h4>
+                    <img src="images/certificados/sql.jpg" alt="SQL">
+                </div>
 
-                        <div class="contenedor-eleccion">
-                            <h4>Diseño personalizado</h4>
-                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </li>
-
-                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
-                        <i class="fab fa-python"></i>
-
-                        <div class="contenedor-eleccion">
-                            <h4>Python</h4>
-                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </li>
-                </ul>
             </div>
+
         </div>
     </section>
 
@@ -178,13 +157,13 @@
 
 
 
-    <main class="servicios">
+    <main id="servicios" class="servicios">
         <div class="container">
             <h2 class="text-center font-weight-bold">Nuestros Servicios</h2>
 
             <div class="row">
 
-                <article class="col-md-4 wow bounceInLeft"  data-wow-delay=".3s">
+                <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
                     <img src="images/servicio-1.svg" alt="Desarrollo de aplicaciones móbiles">
                     <h3><a href="#">Desarrollo de aplicaciones Móviles<i class="fas fa-chevron-right"></i></a></h3>
                     <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam vitae natus qui excepturi ea nostrum illum possimus architecto saepe ut necessitatibus non iure, consequatur maxime ullam harum veritatis ad.</p>
@@ -210,59 +189,16 @@
 
 
 
-
-    <secction class="ultimos-proyectos">
-        <div class="container">
-            <h2 class="text-center font-weight-bold">Últimos proyectos</h2>
-
-
-            <div class="owl-carousel">
-                <a href="#">
-                    <h4>Apss deportes</h4>
-                    <img src="images/proyecto1.jpg" alt="portafolio">
-                </a>
-
-                <a href="#">
-                    <h4>Apps e comerce</h4>
-                    <img src="images/proyecto2.jpg" alt="Tienda en linea">
-                </a>
-
-                <a href="#">
-                    <h4>Apps blog</h4>
-                    <img src="images/proyecto3.png" alt="Blog">
-                </a>
-
-                <a href="#">
-                    <h4>Apps Android</h4>
-                    <img src="images/proyecto4.png" alt="Android">
-                </a>
-
-                <a href="#">
-                    <h4>Apps Clima Peru</h4>
-                    <img src="images/proyecto5.jpg" alt="clima peru">
-                </a>
-
-                <a href="#">
-                    <h4>Apps Videos juegos</h4>
-                    <img src="images/proyecto6.jpg" alt="videos-juegos">
-                </a>
-
-            </div>
-
-        </div>
-    </secction>
-
-
-
     <footer class="piedepagina" role="contentinfo">
         <div class="container">
             <p>Copyright &copy; 2018 Antoni Jems - Todos los derechos reservados</p>
             <ul class="redes-sociales">
-                
+
                 <li><a href="https://twitter.com/JemsFlow"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/antoni-jems-garcia-herrera-69b46275"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/AntoniJems"><i class="fab fa-github"></i></a></li>
-                
+                <li><a href="https://github.com/AntoniJems"><i class="fab fa-instagram"></i></a></li>
+
             </ul>
             <mailto>garciaantoniherrera@gmail.com</mailto>
 
@@ -279,8 +215,8 @@
     <script src="js/wow.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/sitio.js"></script>
-    
-   
+
+
 
 </body>
 
