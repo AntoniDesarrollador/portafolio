@@ -6,6 +6,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   color: #111111;
+  position: relative;
 }
 
 .bienvenidos {
@@ -329,6 +330,10 @@ body {
   color: #52a4cc;
 }
 
+.contacto {
+  margin: 2rem 2rem auto auto;
+}
+
 .piedepagina {
   background: #111111;
   color: #fff;
@@ -411,11 +416,6 @@ body {
           transform: rotateY(360deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-}
-
-.paginas-internas .contacto {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
