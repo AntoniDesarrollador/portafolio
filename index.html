@@ -26,13 +26,13 @@
 </head>
 
 
-<body data-spy="scroll" data-target="#menu-principal">
+<body>
     <section class="bienvenidos" id=inicio>
 
         <header class="encabezado navbar fixed-top" rol="banner">
             <div class="container">
                 <a href="index.html" class="logo">
-                    <img src="images/logo.svg" alt="logo del sitio">
+                    <img src="images/logo.svg" title="Antoni Jems - Calidad de desarrollo web  " alt="logo del sitio">
                 </a>
 
                 <button type="button" class="boton-menu d-md-none" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
@@ -42,10 +42,10 @@
 
                 <nav id="menu-principal" class="collapse" class="navbar navbar-light bg-light">
                     <ul>
-                        <li class="active"><a href="#inicio">Inicio</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
                         <li><a href="#nosotros">Sobre mi</a></li>
                         <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#contacto">Contácto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -67,7 +67,7 @@
 
 
 
-    <section class="sobre-mi" id="nosotros" data-spy="scroll" data-target="menu-principal" data-offset="0" class="scrollspy">
+    <section class="sobre-mi" id="nosotros">
         <div class="container">
             <div class="row">
                 <article class="col-md-8">
@@ -123,7 +123,7 @@
 
 
 
-    <section class="certificados" data-spy="scroll" data-target="#menu-principal" data-offset="0" class="scrollspy">
+    <section class="certificados">
         <div class="container">
 
             <h2 class="text-center font-weight-bold">Certificados obtenidos</h2>
@@ -157,33 +157,33 @@
 
 
 
-    <main id="servicios" class="servicios" data-spy="scroll" data-target="#menu-principal" data-offset="0" class="scrollspy">
+    <main id="servicios" class="servicios">
         <div class="container">
             <h2 class="text-center font-weight-bold">Nuestros Servicios</h2>
 
             <div class="row">
 
                 <article class="col-md-4  wow bounceInLeft" data-wow-delay=".1s">
-                    <img src="images/servicio-2.svg" alt="Servicio de Consultoría Tecnológica">
-                    <h3><a href="#">Diseño de páginas webs<i class="fas fa-chevron-right"></i></a></h3>
+                    <img src="images/servicio-1.svg" alt="desarrollo">
+                    <h3><a href="diseno-web.html">Diseño de páginas webs<i class="fas fa-chevron-right"></i></a></h3>
                     <p class="d-none d-lg-block">Se recibe la idea del cliente y se plasmas varios diseños para su evaluación, posteriormente se realiza el desarollo de la página web basado en las mejores herrramientas de la actualidad.</p>
-                    <a href="#" class="btn btn-secondary d-none d-lg-block">Más información</a>
+                    <a href="diseno-web.html" class="btn btn-secondary d-none d-lg-block">Más información</a>
                 </article>
 
                 <article class="col-md-4">
-                    <img src="images/servicio-1.svg" alt="Desarrollo de aplicaciones móbiles">
-                    <h3><a href="#">Desarrollo de aplicaciones Móviles<i class="fas fa-chevron-right"></i></a></h3>
-                    <p class="d-none d-lg-block">Toda empresa amerita tener presencia en los teléfonos móviles para más acceso con los clientes. En este sentido hemos puesto a su disposición la posibilidad del desarrollo de Apps para móviles</p>
-                    <a href="#" class="btn btn-secondary d-none d-lg-block">Más información</a>
+                    <img src="images/servicio-2.svg" alt="Desarrollo de aplicaciones móviles">
+                    <h3><a href="desarrollo-apps.html">Desarrollo de aplicaciones Móviles<i class="fas fa-chevron-right"></i></a></h3>
+                    <p class="d-none d-lg-block">Toda empresa amerita tener presencia en los teléfonos móviles para más acceso con los clientes. En este sentido hemos puesto a su disposición la posibilidad del desarrollo de Apps para móviles-</p>
+                    <a href="desarrollo-apps.html" class="btn btn-secondary d-none d-lg-block">Más información</a>
                 </article>
 
 
 
                 <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
-                    <img src="images/servicio-3.svg" alt="Marketing y publicidad Movil">
-                    <h3><a href="#" >Administración de servidores linux<i class="fas fa-chevron-right"></i></a></h3>
-                    <p class="d-none d-lg-block">Ofrecemos políticas de respaldo para los equipos de su empresa sin importar el Sistema Operativo. Administración de hosting o Amazon Web Services (AWS) para el despliegue a producción de sus proyectos</p>
-                    <a href="#" class="btn btn-secondary d-none d-lg-block">Más información</a>
+                    <img src="images/servicio-3.svg" alt="Servidores">
+                    <h3><a href="servidores-linux.html" >Administración de servidores linux<i class="fas fa-chevron-right"></i></a></h3>
+                    <p class="d-none d-lg-block">Ofrecemos políticas de respaldo para los equipos de su empresa sin importar el Sistema Operativo. Administración de hosting o Amazon Web Services (AWS) para el despliegue a producción de sus proyectos.</p>
+                    <a href="servidores-linux.html" class="btn btn-secondary d-none d-lg-block">Más información</a>
                 </article>
             </div>
         </div>
@@ -198,56 +198,28 @@
 
 
     <article class="contacto" id="contacto">
+        <h2 class="text-center mt-2 mb-2">Contacta con Antoni jems</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <h2 class="mb-3">Formulario de contacto</h2>
-
-                    <form action="#">
-
-                        <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label">Nombre</label>
-
-                            <div class="col-md-8">
-                                <input class="form-control" type="text" id="nombre" name="name" placeholder="Ingrese su nombre">
-                            </div>
-                        </div>
-
-
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label">Email</label>
-
-                            <div class="col-md-8">
-                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email">
-                            </div>
-                        </div>
-
-
-                        <div class="form-group row">
-                            <label for="mensaje" class="col-md-4 col-form-label">Mensaje</label>
-
-                            <div class="col-md-8">
-                                <textarea class="form-control" rows="5" type="text" id="mensaje" name="mensaje" placeholder="Ingrese su mensaje"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">Enviar</button>
-                                <button type="reset" class="btn btn-secondary">Limpiar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
 
                 <div class="col-md-4">
-                    <h3>Detalles de contacto</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum praesentium accusantium, iure. Laudantium adipisci labore, assumenda sit a officiis dolor numquam quam, consequatur blanditiis deserunt? Rem exercitationem dicta, asperiores similique.</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum praesentium accusantium, iure. Laudantium adipisci labore, assumenda sit a officiis dolor numquam quam, consequatur blanditiis deserunt? Rem exercitationem dicta, asperiores similique.</p>
+                    <p>Para mi es un placer ayudarle a llevar a cabo sus proyectos. Por eso, le ofresco a continuación diferentes medios para responder a cada una de sus solicitudes, de la manera que más le convenga.</p>
+                       <p>Para mi es un placer ayudarle a llevar a cabo sus proyectos. Por eso, le ofresco a continuación diferentes medios para responder a cada una de sus solicitudes, de la manera que más le convenga.</p>
+                       <p>Para mi es un placer ayudarle a llevar a cabo sus proyectos. Por eso, le ofresco a continuación diferentes medios para responder a cada una de sus solicitudes, de la manera que más le convenga.</p>
+                        <p>escríbeme a <a title="Al hacer clic en el enlace, si tienes la opción Outlook habilitada, se abrirá tu correo electrónico." href="mailto:garciaantoniherrera@gmail.com">garciaantoniherrera@gmail.com</a></p>
+                    <a href="" title="Correo"><i class="fal fa-envelope"></i></a>
+
                 </div>
 
+                <div class="col-md-8">
+                    <div>
+
+
+
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -258,17 +230,17 @@
 
     <footer class="piedepagina" role="contentinfo">
         <div class="container">
-            <p>Copyright &copy; 2018 Antoni Jems - Todos los derechos reservados</p>
-            <ul class="redes-sociales">
+            <p>Copyright &copy; 2018 - Todos los derechos reservados</p>
+            <div>
+                <ul class="redes-sociales">
 
-                <li><a href="https://twitter.com/JemsFlow"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/antoni-jems-garcia-herrera-69b46275"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/AntoniJems"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://github.com/AntoniJems"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/JemsFlow" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/antoni-jems-garcia-herrera-69b46275" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/AntoniJems" title="Github"><i class="fab fa-github"></i></a></li>
+                </ul>
 
-            </ul>
-            <mailto>garciaantoniherrera@gmail.com</mailto>
 
+            </div>
         </div>
     </footer>
 

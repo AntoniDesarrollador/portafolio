@@ -274,7 +274,35 @@ body {
 // Estilos página Contacto
 //-----------------------------
 .contacto {
-    margin: 2rem 2rem auto auto;
+    background: #fff;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.contacto {
+    background: url("../images/business.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed !important;
+    color: #fff;
+}
+
+
+.contacto .redes-sociales {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contacto .redes-sociales a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 .5rem;
+    opacity: .7;
+    transition: all .5s ease;
+}
+.contacto .redes-sociales a:hover {
+    opacity: 1;
 }
 
 
@@ -306,6 +334,8 @@ body {
 .piedepagina .redes-sociales a:hover {
     opacity: 1;
 }
+
+ 
 .ir-arriba {
     position: fixed;
     bottom: 1rem;
