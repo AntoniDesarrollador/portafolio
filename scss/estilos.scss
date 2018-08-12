@@ -306,23 +306,28 @@ body {
     width: 200px;
 }
 
-.contacto .redes-sociales {
+.contacto .redes-sociales,
+.contacto .contrataciones{
     display: flex;
     justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.contacto .redes-sociales a {
+
+.contacto .redes-sociales a,
+.contacto .contrataciones a{
     color: #fff;
     font-size: 2rem;
     margin: 0 .5rem;
     opacity: .7;
     transition: all .5s ease;
 }
-.contacto .redes-sociales a:hover {
+.contacto .redes-sociales a:hover,
+.contacto .contrataciones a:hover {
     opacity: 1;
 }
+
 
 
 //-----------------------------
