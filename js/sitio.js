@@ -19,6 +19,11 @@ var scroll = new SmoothScroll('a[href*="#servicios"]', {
     offset: 60
 });
 
+var scroll = new SmoothScroll('a[href*="#contacto"]', {
+    speed: 1000,
+    offset: 60
+});
+
 
 /*Ocultar y mostrar boton "ir arriba"*/
 
@@ -47,3 +52,7 @@ $(window).scroll(function () {
         nav.removeClass("fondo-menu");
     }
 });
+
+
+$('body').scrollspy({ target: '#menu-principal' })
+

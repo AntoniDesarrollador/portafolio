@@ -6,6 +6,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   color: #111111;
+  position: relative;
 }
 
 .bienvenidos {
@@ -329,6 +330,80 @@ body {
   color: #52a4cc;
 }
 
+.contacto {
+  background: #fff;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contacto {
+  background: url("../images/business.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed !important;
+  color: #fff;
+}
+
+.contacto img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.contacto article a {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.contacto article p .fal {
+  height: 200px;
+  width: 200px;
+}
+
+.contacto .redes-sociales,
+.contacto .contrataciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacto .redes-sociales a,
+.contacto .contrataciones a {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 .5rem;
+  opacity: .7;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.contacto .redes-sociales a:hover,
+.contacto .contrataciones a:hover {
+  opacity: 1;
+}
+
 .piedepagina {
   background: #111111;
   color: #fff;
@@ -418,11 +493,6 @@ body {
           transform: rotateY(360deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-}
-
-.paginas-internas .contacto {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
